@@ -1,96 +1,99 @@
-Object Detection Application
+# 🔍 Object Detection Application  
 
-This project is a simple Object Detection application built with Python using the Tkinter library for the graphical user interface (GUI) and OpenCV for object detection.
+A simple **Object Detection** application built with **Python**, featuring a **Tkinter-based GUI** and powered by **OpenCV** for object recognition.  
 
-Features
+---
 
-Load Image for Detection: Users can upload an image file, and the application will detect objects in the image.
+## ✨ Features  
 
-Real-Time Detection with Camera: Start the camera to detect objects in real-time.
+✅ **Load Image for Detection** – Upload an image, and the app will identify objects within it.  
+📷 **Real-Time Detection with Camera** – Start the webcam and detect objects live.  
+ℹ️ **Developer Information** – View the developer's details and contact information.  
+🎨 **Customizable Interface** – Styled buttons for better user experience and aesthetics.  
 
-Developer Information: Displays the developer's name and contact information.
+---
 
-Customizable Interface: Includes styled buttons for better usability and aesthetics.
+## 📞 Requirements  
 
-Requirements
+To run this project, install the following Python libraries:  
 
-To run this project, you need to install the following Python libraries:
+- **Tkinter** (pre-installed with Python)  
+- **OpenCV** (`opencv-python`)  
+- **Pillow**  
 
-tkinter (comes pre-installed with Python)
+Install dependencies using:  
 
-opencv-python
-
-Pillow
-
-You can install the required libraries using the following command:
-
+```bash
 pip install opencv-python pillow
+```
 
-Required Files
+---
 
-Make sure the following files are in the same directory as the application:
+## 📂 Required Files  
 
-coco.names: Contains the names of classes for object detection.
+Ensure these files are in the project directory:  
 
-ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt: Configuration file for the object detection model.
+📌 **`coco.names`** – Contains object class names.  
+📌 **`ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt`** – Configuration file for the object detection model.  
+📌 **`frozen_inference_graph.pb`** – Pre-trained object detection model.  
+📌 **`Recognition.png`** – Icon image for the application.  
 
-frozen_inference_graph.pb: Pre-trained model for object detection.
+---
 
-Recognition.png: Icon image for the application.
+## 🚀 How to Run  
 
-How to Run
+1⃣ **Clone or download** the repository.  
+2⃣ Ensure all required files are in the project directory.  
+3⃣ Run the application using:  
 
-Clone or download this repository to your local machine.
+```bash
+python objet.py
+```
 
-Ensure all required files are in the project directory.
+---
 
-Run the application using the following command:
+## 🎮 How to Use  
 
-python object_detection_app.py
+### 📷 Load an Image  
+1. Click **"Load Image"**.  
+2. Select an image from your computer.  
+3. The application will display detected objects.  
 
-How to Use
+### 📺 Start the Camera  
+1. Click **"Start Camera"**.  
+2. The webcam will open, detecting objects in real-time.  
+3. Press **`q`** to stop the camera.  
 
-Load Image:
+### ℹ️ View Developer Info  
+Click **"Developer Info"** to display the developer's contact details.  
 
-Click the "Load Image" button.
+---
 
-Select an image file from your computer.
+## 🔔 Notes  
 
-The application will display the detected objects in the image.
+⚡ The application uses a **pre-trained model** for object detection. Ensure all required files are in the project directory.  
+📏 For better performance, set the **camera resolution** to a suitable size (e.g., **740x580**).  
 
-Start Camera:
+---
 
-Click the "Start Camera" button.
+## 👨‍💻 Developer  
 
-The application will open the webcam and detect objects in real-time.
+**👤 Name:** Houssem Bouagal  
+✉️ **Email:** mouhamedhoussem813@gmail.com  
 
-Press the q key to stop the camera.
+---
 
-Developer Information:
+## 🚀 Future Enhancements  
 
-Click the "Developer Info" button to view the developer's contact information.
+🔹 Add a feature to **save detection results**.  
+🌍 Implement **multi-language support**.  
+⚙️ Allow users to **adjust model parameters** (e.g., confidence thresholds).  
 
-Notes
+---
 
-The application uses a pre-trained model for object detection. Ensure all required files are present in the project directory.
+## 📜 License  
 
-For better performance, ensure the camera resolution is set to a suitable size (e.g., 740x580).
+🧠 This project is **open-source** and available for modification and use.  
 
-Developer Information
-
-Name: Houssem Bouagal
-
-Email: mouhamedhoussem813@gmail.com
-
-Future Enhancements
-
-Add a feature to save the detection results.
-
-Provide multi-language support for the user interface.
-
-Allow users to adjust model parameters, such as confidence thresholds.
-
-License
-
-This project is open-source and available for use and modification.
+---
 
